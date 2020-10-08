@@ -1,0 +1,18 @@
+body{
+     background: khaki;
+}
+
+h1{
+	color: darkblue; 
+	font-family: 'Lobster', cursive;
+}	
+
+.img-rotate{
+	width: 200px;
+}
+
+img:hover{
+	width: 400px;
+	transform: rotate(360deg);
+	transition: 0.7s;
+}
